@@ -1,0 +1,15 @@
+%%xy中心(上方导入xy向量)
+x0=table2array(x)';
+y0=table2array(y)';
+z0=table2array(z)';
+plot3(x0,y0,z)
+%% 
+position=table2array(yx)';
+distance=table2array(distancey)';
+xlabel('pixel');
+ylabel('pixel');
+cftool
+%% 
+t=2;
+time=t./distance;
+cftool
